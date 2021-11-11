@@ -42,3 +42,18 @@
         text-align: start;
     }
 }
+
+
+@media (max-width: 767px) {
+    .repo h3 {
+        font-size: 20px;
+    }
+}
+
+.header-blue .navbar .navbar-toggler:hover,
+.header-blue .navbar-toggler:focus {
+    background: none;
+    position: absolute;
+    right: 18%;
+    top: 22%;
+}
