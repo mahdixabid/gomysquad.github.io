@@ -1,29 +1,44 @@
-    .video_demo {
+.video_demo {
+    display: flex;
+    justify-content: center;
+}
+
+.features-blue {
+    color: #fff;
+    background: linear-gradient(135deg, #172a74, #21a9af);
+    background-color: #184e8e;
+    padding-bottom: 150px;
+}
+
+.header-blue .navbar {
+    background: linear-gradient(135deg, #172a74, #21a9af);
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #172a74, #21a9af);
+}
+
+.repo {
+    padding-left: 15px;
+}
+
+@media (max-width:767px) {
+    .header-blue .hero p {
+        margin-left: 70px;
+        margin-right: 70px;
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
         display: flex;
-        justify-content: center;
+        text-align: start;
     }
-    
-    .features-blue {
-        color: #fff;
-        background: linear-gradient(135deg, #172a74, #21a9af);
-        background-color: #184e8e;
-        padding-bottom: 150px;
-    }
-    
-    .header-blue .navbar {
-        background: linear-gradient(135deg, #172a74, #21a9af);
-        padding-top: 0;
-        padding-bottom: 0;
-        color: #fff;
-        border-radius: 0;
-        box-shadow: none;
-        border: none;
-    }
-    
-    .btn-primary {
-        background: linear-gradient(135deg, #172a74, #21a9af);
-    }
-    
-    .repo {
-        padding-left: 15px;
-    }
+}
