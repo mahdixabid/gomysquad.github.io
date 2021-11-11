@@ -1,0 +1,40 @@
+#hdr-top-wrapper {
+  position: relative;
+  padding: 5px 0;
+  border-bottom: 1px solid #EEE;
+}
+
+.layer-stretch {
+  position: relative;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.hdr-top {
+  text-align: right;
+  overflow: visible;
+}
+
+.hdr-top-block {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 5px;
+}
+
+.hdr-top-line {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1px;
+  height: 30px;
+  margin: 0 5px;
+  background-color: #DDD;
+}
+
+.theme-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
